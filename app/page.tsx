@@ -1,3 +1,4 @@
+'use-client'
 import Link from "next/link";
 import { Post } from "./lib/interface";
 import { client } from "./lib/sanity";
