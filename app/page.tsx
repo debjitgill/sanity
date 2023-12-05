@@ -11,9 +11,6 @@ async function getData() {
   return data;
 }
 
-
-
-
 export default async function IndexPage() {
   const data = (await getData()) as Post[];
   return (
@@ -39,9 +36,9 @@ export default async function IndexPage() {
                 prefetch
                 className="space-y-3 xl:col-span-3"
               >
-                <div >
+                <div>
                   <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                    {post.pageTitle}
+                    {post.title}
                   </h3>
                 </div>
 

@@ -1,9 +1,6 @@
 export interface Post {
-  pageTitle: string;
-    metaTitle: string;
+    title: string;
     overview: string;
-    metaDescription:string;
-    description:string;
     content: any;
     _id: string;
     slug: {
